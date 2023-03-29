@@ -1,0 +1,35 @@
+
+body {
+	font-family: $font-family_1;
+	background-color: $background-color_2;
+}
+
+main {
+	margin: 0px;
+	align-items: center;
+	text-align: center;
+	background-color: $background-color_1;
+	color: $color_1;
+}
+
+iframe {
+	align-items: center;
+	align-content: center;
+}
+
+footer {
+	text-decoration: none;
+	background-color: $background-color_1;
+	color: $color_1;
+}
+.piedepagina {
+		display: flex;
+		text-decoration: none;
+		justify-content: center;
+		align-items: center;
+	}
+
+.btn {
+    font-size: xx-large;
+}
+

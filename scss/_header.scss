@@ -1,0 +1,49 @@
+
+.titulo {
+    font-weight: bold;
+}
+
+
+.logo {
+    display: flex;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    background-color: $background-color_1;
+    text-align: center;
+    justify-content: center;
+    color: $color_1;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    transition: all 0.3 ease;
+    font-weight: bold;
+ }
+
+ .navbar-toggler{
+    color: black;
+ }
+
+ .nav-link:hover {
+    color: teal;
+ }
+
+
+.container-fluid{
+    background-color: white;
+    color: black;
+}
+
+.barra {
+	display: flex;
+	text-align: end;
+	justify-content: end;
+}
+

@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+main {
+  margin: 0px;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+iframe {
+  align-items: center;
+  align-content: center;
+}
+
+footer {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+.piedepagina {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-size: xx-large;
+}
+
+.titulo {
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  width: 230px;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  transition: all 0.3 ease;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  color: black;
+}
+
+.nav-link:hover {
+  color: teal;
+}
+
+.container-fluid {
+  background-color: white;
+  color: black;
+}
+
+.barra {
+  display: flex;
+  text-align: end;
+  justify-content: end;
+}
+
+.brujasodre {
+  width: 500px;
+}
+
+.integrantes {
+  width: 30%;
+}
+
+.titulo1 {
+  text-align: center;
+  font-size: bold;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: large;
+}
+
+.titulo2 {
+  text-align: center;
+  font-size: bold;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: large;
+}
+
+.titulo3 {
+  text-align: center;
+  font-size: bold;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: large;
+}
+
+.biografia {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.disco {
+  width: 30%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+footer p {
+  font-size: 1.5rem;
+}
+footer li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.contacto {
+  display: flex;
+  text-transform: uppercase;
+  border: 1px solid grey;
+  flex-direction: column;
+  font-size: bold;
+  justify-content: center;
+  width: auto;
+  align-items: center;
+}
+
+/*# sourceMappingURL=estilo.css.map */

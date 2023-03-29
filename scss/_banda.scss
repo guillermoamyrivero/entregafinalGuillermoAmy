@@ -1,0 +1,36 @@
+
+@mixin formato {
+    text-align: center;
+	font-size: bold;
+	font-weight: bold;
+	font-style: oblique;
+	font-size: large;
+}
+.brujasodre {
+	width: 500px;
+}
+
+.integrantes {
+    width: 30%;
+    
+}
+
+.titulo1 {
+    @include formato;
+}
+
+.titulo2 {
+	@include formato;
+}
+
+.titulo3{
+    @include formato
+}
+
+.biografia {
+	background-color: $background-color_1;
+	color: $color_1;
+	font-weight: bold;
+	font-size: xx-large;
+}
+
